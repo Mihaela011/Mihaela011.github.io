@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.29.11";
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.29.12";
 document.getElementById("id_start_button").addEventListener("click", start);
 document.getElementById("id_stop_button").addEventListener("click", stop);
 

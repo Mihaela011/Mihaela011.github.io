@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.29.15";
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.29.16";
 document.getElementById("id_start_button").addEventListener("click", start);
 document.getElementById("id_stop_button").addEventListener("click", stop);
 
@@ -38,7 +38,7 @@ function start()
 	}
 	}
 	else 
-		my_worker.postMessage("strat");
+		my_worker.postMessage("start");
 	id_timer = setInterval(deseneaza_cerc, 10, context, canvas.width, canvas.height, unghi);
 }
 //-----------------------------------

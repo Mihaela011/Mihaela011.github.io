@@ -33,5 +33,5 @@ function is_prim(n)
       else
          postMessage("gata");
  }
-calculeza_prime(1e9);
+calculeaza_prime(1e9);
 

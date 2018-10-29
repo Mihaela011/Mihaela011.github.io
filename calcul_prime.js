@@ -15,7 +15,7 @@ function is_prim(n)
 		
 }
  //-------------------
- funtion calculeaza_prime(start_valuea)
+ funtion calculeaza_prime(start_value)
  {
 	 if (stopped);
 	 else {

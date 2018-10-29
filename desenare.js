@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.29.6";
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.29.7";
 document.getElementById("id_start_button").addEventListener("click", start);
 document.getElementById("id_stop_button").addEventListener("click", stop);
 
@@ -29,8 +29,7 @@ function start()
 	
 	document.getElementById("id_start_button").disabled = true;
 	document.getElementById("id_stop_button").disabled = false;
-	
-	var my_worker= new Worker ("calcul_prime.js")
+	my_worker= new Worker ("calcul_prime.js")
 	my_worker.onmessage=function(e)
 	{
 		document.getElementById("id_prime").innerHTML=e.data;
@@ -44,5 +43,7 @@ function stop()
 	document.getElementById("id_stop_button").disabled = true;	
 	
 	clearInterval(id_timer);
+my_worker.postMessage("stop");
+	
 }
 //-----------------------------------

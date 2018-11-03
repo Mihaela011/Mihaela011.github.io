@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.15.0";
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.15.2";
 
 function rezolva()
 {

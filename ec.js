@@ -1,5 +1,5 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.15.3";
-
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.15.1";
+document.getElementById("id_button").addEventListener("click", rezolva);
 function rezolva()
 {
 	// citire

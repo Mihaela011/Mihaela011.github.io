@@ -1,7 +1,7 @@
 document.getElementById("id_text").innerHTML="Logic version  2018.11.04.03";
 
 //atasare butonului functia rezolva
-document.getElementById("buton").AddEventListener("click","rezolvare");
+document.getElementById("buton").addEventListener("click","rezolvare");
 
 function rezolvare{
 //citirea elementeleor

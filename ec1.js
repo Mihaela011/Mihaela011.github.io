@@ -3,7 +3,7 @@ document.getElementById("id_text").innerHTML="Logic version  2018.11.04.03";
 //atasare butonului functia rezolva
 document.getElementById("buton").addEventListener("click","rezolvare");
 
-function rezolvare
+function rezolvare()
 {
 //citirea elementeleor
 	var a = element.getElemetById("var_a").value;

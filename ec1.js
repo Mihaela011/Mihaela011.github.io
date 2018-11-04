@@ -6,9 +6,9 @@ document.getElementById("buton").addEventListener("click",rezolvare);
 function rezolvare()
 {
 //citirea elementeleor
-	var a = document.getElemetById("var_a").value;
-	var b = document.getElemetById("var_b").value;
-	var c = document.getElemetById("var_c").value;
+	var a = document.getElementById("var_a").value;
+	var b = document.getElementById("var_b").value;
+	var c = document.getElementById("var_c").value;
 //calculare lor	
 	var delta=b*b-4*a*c;
 	var x1_re,x2_re,x1_im,x2_im;

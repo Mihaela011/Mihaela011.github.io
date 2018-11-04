@@ -1,4 +1,4 @@
-documet.getElementById("id_text").innerHTML="Logic version  2018.11.04.02";
+documet.getElementById("id_text").innerHTML="Logic version  2018.11.04.03";
 
 //atasare butonului functia rezolva
 document.getElementById("buton").AddEventListener("click","rezolvare");

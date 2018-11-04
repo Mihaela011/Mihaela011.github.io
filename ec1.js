@@ -26,8 +26,8 @@ function rezolvare()
 
     if (delta>=0)
 	{
-		documet.getElementById("r1").innerHTML=x1_re;
-		documet.getElementById("r2").innerHTML=x2_re;
+		document.getElementById("r1").innerHTML=x1_re;
+		document.getElementById("r2").innerHTML=x2_re;
 	}
 	else
 	{

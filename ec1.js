@@ -31,8 +31,8 @@ function rezolvare()
 	}
 	else
 	{
-		document.getElementById("r1").innerHTML=x1 + " + " + "x1_re" + "i";
-		document.getElementById("r2").innerHTML=x1 + " + " - "x1_re" + "i";
+		document.getElementById("r1").innerHTML=x1_im + " + " + "x1_re" + "i";
+		document.getElementById("r2").innerHTML=x1_im + " + " - "x1_re" + "i";
 	}
 	
 }

@@ -1,4 +1,4 @@
-document.getElementById("id_text").innerHTML="Logic version  2018.11.04.09";
+document.getElementById("id_text").innerHTML="Logic version  2018.11.04.07";
 
 //atasare butonului functia rezolva
 document.getElementById("buton").addEventListener("click",rezolvare);
@@ -19,9 +19,9 @@ function rezolvare()
 	}
 	else
 	{   x1_im=-b/2*a
-		x1_re=-Math.sqrt(-delta)/2*a;
-		x2_re=Math.sqrt(-delta)/2*a;
-	
+		x1_re=(Math.sqrt(-delta))/2*a;
+		x2_re=(Math.sqrt(-delta))/2*a;
+	}
 //afisarea solutiilor	
 
     if (delta>=0)
@@ -32,7 +32,7 @@ function rezolvare()
 	else
 	{
 		document.getElementById("r1").innerHTML=x1_im + " + " + x1_re + "i";
-		document.getElementById("r2").innerHTML=x1_im + " + "  x2_re + "i";
+		document.getElementById("r2").innerHTML=x1_im + " + " - x1_re + "i";
 	}
 	
 }

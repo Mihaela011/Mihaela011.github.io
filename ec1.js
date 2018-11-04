@@ -1,2 +1,1 @@
-document.getElementById("id_text").innerHTML="Logic version  2018.11.04.03";
-
+docudocument.getElementById("id_logic_version").innerHTML = "Logic version: 2018.10.15.9";

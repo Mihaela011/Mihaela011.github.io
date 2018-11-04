@@ -1,4 +1,4 @@
-document.getElementById("id_text").innerHTML="Logic version  2018.11.04.07";
+document.getElementById("id_text").innerHTML="Logic version  2018.11.04.08";
 
 //atasare butonului functia rezolva
 document.getElementById("buton").addEventListener("click",rezolvare);
@@ -31,8 +31,8 @@ function rezolvare()
 	}
 	else
 	{
-		document.getElementById("r1").innerHTML=x1_im + " + " + "x1_re" + "i";
-		document.getElementById("r2").innerHTML=x1_im + " + " - "x1_re" + "i";
+		document.getElementById("r1").innerHTML=x1_im + " + " + x1_re + "i";
+		document.getElementById("r2").innerHTML=x1_im + " + " - x1_re + "i";
 	}
 	
 }

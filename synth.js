@@ -20,5 +20,15 @@ function on_speak
 	var enunt = new SpeechSynthesisUtterance();
 	enunt.lang= "en-US";
 	enunt.text=document.getElementById("id_text").value;
+	eneunt.onend = on_end_speech;
+	
+	document.getElementById("id_speak").disabled= true;
+	
 	synth.speak(enunt);
+}
+
+
+function on_end_speech();
+{
+	document.getElementById("id_speak").disabled= false;
 }
